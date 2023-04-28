@@ -48,7 +48,7 @@ const TextDiv = styled.div`
 `;
 
 const Container = styled.div`
-  align-items: stretch;
+  align-items: stretch; 
   margin-top: 150px;
   height: 418px;
   text-align: center;

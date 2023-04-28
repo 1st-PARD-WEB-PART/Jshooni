@@ -1,13 +1,15 @@
 import Login from "../components/Login";
 import styled from 'styled-components';
+import Footer from "../components/Footer";
 
-function LoginPage() {
+function LoginPage(){
     const LoginPageComponent = styled.div`
         
     `;
     return (
         <LoginPageComponent>
-            <Login />
+            <Login/>
+            <Footer/>
         </LoginPageComponent>
     );
 }
